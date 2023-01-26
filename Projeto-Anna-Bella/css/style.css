@@ -1,32 +1,33 @@
 body {
     background: #d2d2c1 url('img/foto1.png');
     font: 16px Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 900px;
 }
 
 #menu {
-    background-color: #cccccc;
-    width: 100%;
-    max-width: 900px;
-    font-weight: 700;
+    background-color: #c5c5b2;
+    padding: 18px;
+    text-align: center;
 }
 
-#menu p {
-    text-transform: uppercase;
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
 }
 
 #sobre {
-    width: 100%;
-    max-width: 900px;
+    background: #e8e8e9;
+    padding: 10px;
 }
 
 #sobre h1 {
-    color: #a9a9a9;
     font-size: 26px;
 }
 
 #rodape {
-    width: 100%;
-    max-width: 900px;
-    background-color: #cccccc;
     text-align: center;
+    padding-top: 10px;
 }
