@@ -1,0 +1,32 @@
+body {
+    background: #d2d2c1 url('img/foto1.png');
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    background-color: #cccccc;
+    width: 100%;
+    max-width: 900px;
+    font-weight: 700;
+}
+
+#menu p {
+    text-transform: uppercase;
+}
+
+#sobre {
+    width: 100%;
+    max-width: 900px;
+}
+
+#sobre h1 {
+    color: #a9a9a9;
+    font-size: 26px;
+}
+
+#rodape {
+    width: 100%;
+    max-width: 900px;
+    background-color: #cccccc;
+    text-align: center;
+}
