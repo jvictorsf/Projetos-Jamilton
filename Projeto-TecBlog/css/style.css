@@ -24,6 +24,57 @@ body {
     padding: 10px;
 }
 
+#principal {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.postagem img {
+    width: 620px;
+}
+
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.postagem-lateral:last-child {
+    border: 0;
+}
+
+#rodape {
+    background-color: #CCC;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+
 /*
 *** Formatação do menu ***
 */
@@ -33,13 +84,22 @@ a {
 }
 
 a:link, a:visited {
-    color: #fff;
-    padding: 8px;
+    color: #F7B600;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+#cabecalho a:link,#cabecalho a:visited {
+    color: #FFF;
+    padding: 8px;
+}
+
+#cabecalho a:hover {
     color: #f7b600;
-    background: #fff;
+    background: #FFF;
+    text-decoration: none;
 }
 
 /*
@@ -51,6 +111,25 @@ h1 {
     font-size: 2.5em; /* 1em = 16px; 2.5em = 40px*/
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #FFF;
+    background: #F7B600;
+    padding: 5px;
+}
+
 .branco {
-    color: white;
+    color: #FFF;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    font-weight: bold;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
