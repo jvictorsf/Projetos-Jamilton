@@ -18,16 +18,20 @@ body {
 
 }
 
-#sobre {
+#sobre, #campanhas, #contato, #biografia{
     background: #e8e8e9;
     padding: 10px;
 }
 
 #sobre h1 {
-    font-size: 26px;
+    font-size: 1.2em;
 }
 
 #rodape {
     text-align: center;
     padding-top: 10px;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
 }
